@@ -1,6 +1,4 @@
-import "./xhr2-loader";
-
-import { Pages, PagesClient, Common } from "@strelka-skaut/js-api-spec";
+import { PagesClient, Common, Pages } from "@strelka-skaut/js-api-client";
 
 let client = new PagesClient.ServiceClient('http://10.1.0.139:80');
 
